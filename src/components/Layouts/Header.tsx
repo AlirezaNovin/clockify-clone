@@ -5,7 +5,7 @@ import { PiDotsThreeOutlineThin } from "react-icons/pi";
 
 const Header:React.FC = ():JSX.Element => {
   return (
-    <div className="md:min-h-[60px] md:px-[3%] bg-[#fefefe] ">
+    <div className="md:min-h-[60px] md:px-[3%] bg-[#fefefe] shadow-md border border-b">
       <div className="flex items-center justify-between h-full">
         <div className="flex items-center gap-[24px]">
           <div className="flex items-center gap-2 border-l border-dotted md:pl-[50px]">
